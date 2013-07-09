@@ -20,3 +20,8 @@ body{
 .juego{    
     text-align: center;
 }
+
+.ganador{    
+    border: 1px solid green;
+    border-radius: 3px;
+}
