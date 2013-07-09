@@ -49,6 +49,11 @@
             <input type="button" style="height: 100px; width: 100px;" value=" " id="btn23" onclick="actionbtn23();"/>
             <input type="button" style="height: 100px; width: 100px;" value=" " id="btn24" onclick="actionbtn24();"/>
             <input type="button" style="height: 100px; width: 100px;" value=" " id="btn25" onclick="actionbtn25();"/>
+
+            <br/>   
+            <br/>   
+            <br/>   
+            <input type="button" style="height:50px; width:100px;" disabled id="restart" value="Reiniciar" onclick="restart();"/>            
         </div>
         </div>
 
@@ -107,7 +112,62 @@
                 document.getElementById("btn23").disabled = true;
                 document.getElementById("btn24").disabled = true;
                 document.getElementById("btn25").disabled = true;
+                document.getElementById("restart").disabled = false;
+            }
 
+            function restart() {
+                document.getElementById("btn1").disabled = false;
+                document.getElementById("btn2").disabled = false;
+                document.getElementById("btn3").disabled = false;
+                document.getElementById("btn4").disabled = false;
+                document.getElementById("btn5").disabled = false;
+                document.getElementById("btn6").disabled = false;
+                document.getElementById("btn7").disabled = false;
+                document.getElementById("btn8").disabled = false;
+                document.getElementById("btn9").disabled = false;
+                document.getElementById("btn10").disabled = false;
+                document.getElementById("btn11").disabled = false;
+                document.getElementById("btn12").disabled = false;
+                document.getElementById("btn13").disabled = false;
+                document.getElementById("btn14").disabled = false;
+                document.getElementById("btn15").disabled = false;
+                document.getElementById("btn16").disabled = false;
+                document.getElementById("btn17").disabled = false;
+                document.getElementById("btn18").disabled = false;
+                document.getElementById("btn19").disabled = false;
+                document.getElementById("btn20").disabled = false;
+                document.getElementById("btn21").disabled = false;
+                document.getElementById("btn22").disabled = false;
+                document.getElementById("btn23").disabled = false;
+                document.getElementById("btn24").disabled = false;
+                document.getElementById("btn25").disabled = false;
+                document.getElementById("restart").disabled = true;
+                document.getElementById("btn1").value ="";
+                 document.getElementById("btn2").value="";
+                 document.getElementById("btn3").value="";
+                 document.getElementById("btn4").value="";
+                 document.getElementById("btn5").value="";
+                 document.getElementById("btn6").value="";
+                 document.getElementById("btn7").value="";
+                 document.getElementById("btn8").value="";
+                 document.getElementById("btn9").value="";
+                 document.getElementById("btn10").value="";
+                 document.getElementById("btn11").value="";
+                 document.getElementById("btn12").value="";
+                 document.getElementById("btn13").value="";
+                 document.getElementById("btn14").value="";
+                 document.getElementById("btn15").value="";
+                 document.getElementById("btn16").value="";
+                 document.getElementById("btn17").value="";
+                 document.getElementById("btn18").value="";
+                 document.getElementById("btn19").value="";
+                 document.getElementById("btn20").value="";
+                 document.getElementById("btn21").value="";
+                 document.getElementById("btn22").value="";
+                 document.getElementById("btn23").value="";
+                 document.getElementById("btn24").value="";
+                 document.getElementById("btn25").value="";
+                 window.location.reload();                
 
             }
 
