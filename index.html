@@ -84,7 +84,8 @@
             var btn23;
             var btn24;
             var btn25;
-            var player = "x";
+            var player = "x";            
+            var contador = 0;
 
             function bloquear(){
                 document.getElementById("btn1").disabled = true;
@@ -198,6 +199,11 @@
                 btn23 = document.getElementById("btn23").value;
                 btn24 = document.getElementById("btn24").value;
                 btn25 = document.getElementById("btn25").value;
+
+                if(contador == 25) {
+                    alert("Hay un empate");
+                    bloquear();
+                }
 
 
                 if(btn5+btn10+btn15+btn20+btn25=='XXXXX'){
@@ -470,7 +476,7 @@
                     document.getElementById("btn1").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();
             }
 
@@ -483,7 +489,7 @@
                     document.getElementById("btn2").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -496,7 +502,7 @@
                     document.getElementById("btn3").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -509,7 +515,7 @@
                     document.getElementById("btn4").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -522,7 +528,7 @@
                     document.getElementById("btn5").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -535,7 +541,7 @@
                     document.getElementById("btn6").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -548,7 +554,7 @@
                     document.getElementById("btn7").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -561,7 +567,7 @@
                     document.getElementById("btn8").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -574,7 +580,7 @@
                     document.getElementById("btn9").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -588,7 +594,7 @@
                     document.getElementById("btn10").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -602,7 +608,7 @@
                     player = 'x';
                 }
 
-                
+                contador = contador + 1;
                 hay_ganador();
             }
 
@@ -615,7 +621,7 @@
                     document.getElementById("btn12").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -628,7 +634,7 @@
                     document.getElementById("btn13").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -641,7 +647,7 @@
                     document.getElementById("btn14").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -654,7 +660,7 @@
                     document.getElementById("btn15").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -667,7 +673,7 @@
                     document.getElementById("btn16").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -680,7 +686,7 @@
                     document.getElementById("btn17").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -693,7 +699,7 @@
                     document.getElementById("btn18").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -706,7 +712,7 @@
                     document.getElementById("btn19").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -720,7 +726,7 @@
                     document.getElementById("btn20").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -734,7 +740,7 @@
                     player = 'x';
                 }
 
-                
+                contador = contador + 1;
                 hay_ganador();
             }
 
@@ -747,7 +753,7 @@
                     document.getElementById("btn22").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -760,7 +766,7 @@
                     document.getElementById("btn23").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -773,7 +779,7 @@
                     document.getElementById("btn24").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }
 
@@ -786,7 +792,7 @@
                     document.getElementById("btn25").value = "O";
                     player = 'x';
                 }
-                
+                contador = contador + 1;
                 hay_ganador();                
             }            
 
